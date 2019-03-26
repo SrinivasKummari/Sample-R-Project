@@ -1,0 +1,22 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1553608822587.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1682120474",
+    "id" : "248C9065",
+    "lastKnownWriteTime" : 1553613590,
+    "last_content_update" : 1553613590391,
+    "path" : "~/Downloads/Workspace/R Programming/Sample-R-Project/LanguageBasics.R",
+    "project_path" : "LanguageBasics.R",
+    "properties" : {
+        "cursorPosition" : "137,10",
+        "scrollLine" : "134"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

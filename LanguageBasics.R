@@ -1,0 +1,155 @@
+# Left Arrow Assignment Operator a string to a variable
+x <- "Hello World"
+
+# Right Arrow Assignment Operator (Avoid using it)
+"Hello World" -> y
+
+# Equals assignment operator
+z = "Hello World"
+# Print the variable
+
+print(x)
+print(y)
+print(z)
+
+# Creating variables
+#bool Var: 
+  bv <- TRUE
+#long Var: 
+  lv <- 123L
+#dec Var: 
+  dv <- 1.23
+#strVar: 
+  sv <- "Hello"
+#date Var: 
+  dtv <- as.Date("1994-07-17")
+
+# Print variables using implicit printer
+bv
+lv
+dv
+sv
+dtv
+
+# Create a function
+#func variable
+  fv <- function(x) {x+1}
+  
+# invoke the function fv
+fv(5)
+
+# Creating one dimention vector (having the values of same type)
+v <- c(1,2,3)
+
+# Print the vector
+v
+
+# Create a sequence vector
+sv <- 1:5
+
+# Print the sequence vector
+sv
+
+# Creating a matrix
+m <- matrix(
+  data <- 1:6,
+  nrow <- 2,
+  ncol <- 3)
+
+# Printing the matrix
+m
+
+# Creating an array
+a <- array(
+  data = 1:8,
+  dim = c(2, 2, 2)
+)
+
+# Print an array
+a
+
+# Creating a list
+l <- list (TRUE, 123L, 2.34, "Hello")
+
+# Print the list
+l
+
+# Creating a factor
+categories <- c("Male", "Female", "Male", "Male", "Female")
+factor <- factor(categories)
+
+# Print the factor
+factor
+
+# Print the levels in factor
+levels(factor)
+
+# unclass function to see underlying integer array
+unclass(factor)
+
+# Dataframe Creation
+df <- data.frame(
+  name = c("Cat", "Dog", "Cow", "Pig"),
+  count = c(5,10,13,36),
+  isPet = c(TRUE, TRUE, FALSE, FALSE)
+)
+
+# Print the Data Frame
+df
+
+# To print the specific index
+df[2, 1]
+ 
+# To print a row
+df[1,]
+
+# To print a column
+df[,1]
+
+# To print a specific column by name
+df[["count"]]
+
+# Another way of printing a specific column
+df$count
+
+# Subsetting the data frames
+df[c(2,4),]
+
+# Subsetting the data frame using sequence
+df[c(2:4),]
+
+# Subsetting the data frame using boolean value to pick 
+# or not to pick a specific row
+df[c(TRUE,FALSE, TRUE, TRUE),] #picks rows 1,3,4 leaves 2
+df[c(TRUE, TRUE, FALSE, FALSE),] # picks rows 1, 2 and leaves 3, 4
+
+# Subsetting the dataframe by checking specific column value true
+df[df$isPet ==TRUE,]
+
+# Subsetting the dataframe based on a condition
+df[df$count >10,]
+
+# Subsetting the dataframe based on mentioned list of specific column
+df[df$name %in% c("Cat","Dog"),]
+
+# R is vectorized language
+1+2 # will give the sum of both
+
+# sum of vectors
+c(1,2,3)+c(2,3,4)
+
+# Named vs. ordered arguments
+m <- matrix(data = 1:6, nrow = 2, ncol = 3)
+n <- matrix(1:6, 2, 3)
+m==n
+identical(m,n)
+
+#install packages
+install.packages("dplyr")
+yes
+
+# Loading packages
+library("dplyr")
+
+# Viewing help
+?data.frame
