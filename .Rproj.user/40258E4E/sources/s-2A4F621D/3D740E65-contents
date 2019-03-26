@@ -1,0 +1,51 @@
+# Left Arrow Assignment Operator a string to a variable
+x <- "Hello World"
+
+# Right Arrow Assignment Operator (Avoid using it)
+"Hello World" -> y
+
+# Equals assignment operator
+z = "Hello World"
+# Print the variable
+
+print(x)
+print(y)
+print(z)
+
+# Creating variables
+#bool Var: 
+  bv <- TRUE
+#long Var: 
+  lv <- 123L
+#dec Var: 
+  dv <- 1.23
+#strVar: 
+  sv <- "Hello"
+#date Var: 
+  dtv <- as.Date("1994-07-17")
+
+# Print variables using implicit printer
+bv
+lv
+dv
+sv
+dtv
+
+# Create a function
+#func variable
+  fv <- function(x) {x+1}
+  
+# invoke the function fv
+fv(5)
+
+# Creating one dimention vector (having the values of same type)
+v <- c(1,2,3)
+
+# Print the vector
+v
+
+# Create a sequence vector
+sv <- 1:5
+
+# Print the sequence vector
+sv
